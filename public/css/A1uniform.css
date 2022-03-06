@@ -1,0 +1,180 @@
+/*-- header Lists --*/
+
+.header-right ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+}
+
+/*-- search --*/
+
+.agileits_search input[type="text"] {
+    color: gray;
+    width: 85%;
+    height: auto;
+    padding: 14px;
+    border: 1px solid gray;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+    outline: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+;
+}
+
+.agileits_search button {
+    background: slategray;
+    color: #fff;
+    width: 15%;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 0 4px 4px 0;
+}
+
+.agileits_search button i {
+    font-size: 20px;
+}
+
+.agileits_search input::-webkit-input-placeholder {
+    /* Edge */
+    color: #999;
+    opacity: .8;
+}
+
+.agileits_search input:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #999;
+    opacity: .8;
+}
+
+.agileits_search input::placeholder {
+    color: #999;
+    opacity: .8;
+
+}
+
+/*-- //search --*/
+
+/*-- navigation --*/
+
+.navbar-inner {
+    background: blue;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: black;
+}
+
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: darkblue;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: blue;;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*-- navigation-dropdown --*/
+
+.agile_inner_drop_nav_info {
+    min-width: 673px;
+}
+
+ul.multi-column-dropdown li {
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+ul.multi-column-dropdown li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+    font-weight: 500;
+}
+
+ul.multi-column-dropdown li a:hover {
+    color: blue;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    background-color: #F45C5D;
+}
+
+.dropdown-item {
+    color: blue;
+}
+
+.dropdown-item {
+    font-size: 15px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*-- //navigation-dropdown --*/
+
+/*-- //navigation --*/
+
+/*-- //header-bottom --*/
+/* button style */
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: wheat;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+
+
+.btn-style-secondary {
+    background: wheat;
+    color: #fff;
+    padding: 12px 28px;
+    font-size: 14px;
+    transition: 0.3s ease-out;
+}
+
+
+.btn-style-primary {
+    color: wheat;
+    padding: 0;
+    background: transparent;
+    font-size: 14px;
+}
+
+
